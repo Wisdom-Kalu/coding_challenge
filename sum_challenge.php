@@ -50,12 +50,18 @@ function AddUpToTarget($arr, $target)
 }
 
 /* 
-******************************
+*************************************************************************************************
 * Main Code
-****************************** 
+* The user can modify the first two lines. You can supply a target and any array of your choice
+************************************************************************************************* 
 */
+
 $t = 11; // target number
 $a = array(7, 4, 45, 6, 10, 8 ); // user-supplied array
-$result = AddUpToTarget($a, $t); // function call
+
+/*
+* Function Call
+*/
+$result = AddUpToTarget($a, $t); 
 
 ?>
