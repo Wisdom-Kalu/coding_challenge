@@ -56,12 +56,13 @@ function AddUpToTarget($arr, $target)
 ************************************************************************************************* 
 */
 
-$t = 11; // target number
-$a = array(7, 4, 45, 6, 10, 8 ); // user-supplied array
+$t = 11; // target number. Please don't forget to set it here
+$a = array( 7, 4, 45, 6, 10, 8 ); // user-supplied array
 
 /*
 * Function Call
 */
-$result = AddUpToTarget($a, $t); 
+$result = AddUpToTarget($a, $t);
+
 
 ?>
